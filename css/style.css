@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Roboto');
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
@@ -29,14 +29,14 @@ html {
 
 
 body, input, select, textarea {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 1);
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.65;
 }
 
-a {
+a, h1 {
     -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -44,29 +44,30 @@ a {
     color: rgba(82, 87, 106, 1);
     border-bottom: none;
     text-decoration: none;
-    color: rgba(82, 87, 106, 0.8);
+    color: rgba(82, 87, 106, 1);
 }
 
-    a:hover {
-  color: hotPink;
+a:hover, h1:hover {
+    color: hotPink;
 }
 @media (-webkit-min-device-pixel-ratio:0) {
-  a {
-    background-color: rgba(82, 87, 106, 1);
-    background-image: -webkit-linear-gradient(left, #f15245 0%, #d92e7f 50%, transparent 50%);
-    background-position: 100% 0;
-    background-size: 200% 200%;
-    color: transparent;
-    -webkit-transition: .4s .2s;
-    -webkit-background-clip: text;
-  }
-  a:hover {
-    background-position: 0 0;
-    color: transparent;
-    transition: 0.2s 0;
-  }
+    a, h1 {
+        background-color: rgba(82, 87, 106, 1);
+        background-image: -webkit-linear-gradient(left, #f15245 20%, #d92e7f 50%, transparent 50%);
+        background-position: 100% 0;
+        background-size: 200% 200%;
+        color: transparent;
+        -webkit-transition: .4s .2s;
+        -webkit-background-clip: text;
+    }
+    a:hover, h1:hover {
+        background-position: 0 0;
+        color: transparent;
+        transition: 0.2s 0;
+    }
 }
 }
+
 
 strong, b {
     color: rgba(82, 87, 106, 1);
@@ -78,10 +79,10 @@ em, i {
 }
 
 p {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    color: rgba(82, 87, 106, 0.8);
-    margin: 0 0 1.5rem 0;
+    color: rgba(82, 87, 106, 1);
+    margin: 0 0 0 0;
 }
 
 body.is-ie p {
@@ -90,16 +91,10 @@ body.is-ie p {
 
 h1, h2, h3, h4, h5, h6 {
     color: rgba(82, 87, 106, 1);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     line-height: 1.3;
-    margin: 0 0 0.75rem 0;
-    letter-spacing: -0.05em;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: inherit;
-    text-decoration: none;
+    margin: 0 0 0 0;
 }
 
 
