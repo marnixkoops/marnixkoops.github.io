@@ -1,0 +1,72 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+
+
+h1 {
+    font-size: 40px;
+    opacity: 1;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 14px;
+}
+   
+
+.centeredPanel{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -125px;
+    margin-top: -250px;
+    background-color: white;
+    border-radius: 5px;
+    opacity: 0.9;
+    text-align: center;
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+html, body {
+   margin: 0;
+   padding: 0;
+ }
+
+ .background {
+   position: absolute;
+   display: block;
+    top: 0;
+   left: 0;
+   z-index: 0;
+ }
+
+body {
+   margin: 0;
+   padding: 0;
+    height: 100vh;
+ }
+
+
+#particles-js
+{
+    height: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: lightgray;
+    background-repeat:no-repeat;
+    background: -webkit-radial-gradient(circle at -50% 30%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    background: -moz-radial-gradient(circle at -50% 30%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    background: -ms-radial-gradient(circle at -50% 30%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    background: -o-radial-gradient(circle at -50% 30%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    background: radial-gradient(circle at -50% 30%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
+
