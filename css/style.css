@@ -31,7 +31,6 @@ html {
 body, input, select, textarea {
     color: rgba(255, 255, 255, 1);
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
     font-weight: 300;
     line-height: 1.65;
 }
@@ -80,7 +79,7 @@ em, i {
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #2e3134;
     margin: 0 0 0 0;
 }
