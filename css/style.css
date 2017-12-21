@@ -179,7 +179,7 @@ ul.icons li:last-child {
     height: auto;
     display: block;
     background: #f5f5f5;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 10px 10px 10px 10px;
     -webkit-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15), 5px 5px 5px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15), 5px 5px 5px 0px rgba(0, 0, 0, 0.15);
     position: relative;
