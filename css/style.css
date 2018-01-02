@@ -52,7 +52,7 @@ a:hover, h1:hover {
 @media (-webkit-min-device-pixel-ratio:0) {
     a, h1 {
         background-color: rgba(82, 87, 106, 1);
-        background-image: -webkit-linear-gradient(left, #f15245 20%, #d92e7f 50%, transparent 50%);
+        background-image: -webkit-linear-gradient(left, #00ff82 4%, #15c3e1 30%, #1d6596 62%, #31237c 85%);
         background-position: 100% 0;
         background-size: 200% 200%;
         color: transparent;
@@ -194,7 +194,7 @@ ul.icons li:last-child {
     font-weight: 1000;
     font-size: 22px;
     margin: 0 0 4px;
-    color: #d92e7f;
+    color: #1d6596;
 }
 
 .speech-wrapper .bubble .txt .name span {
@@ -209,7 +209,7 @@ ul.icons li:last-child {
 .speech-wrapper .bubble .txt .message {
     font-size: 16px;
     margin: 0;
-    color: #2e3134;
+    color: #140f33;
 }
 
 .speech-wrapper .bubble .txt .timestamp {
@@ -252,10 +252,10 @@ ul.icons li:last-child {
     background-size: cover;
     background: lightgray;
     background-repeat: no-repeat;
-    background: -webkit-radial-gradient(circle at -50% 30%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
-    background: -moz-radial-gradient(circle at -50% 30%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
-    background: -ms-radial-gradient(circle at -50% 30%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
-    background: -o-radial-gradient(circle at -50% 30%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
-    background: radial-gradient(circle at -50% 30%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    background: -webkit-radial-gradient(circle at -30% -10%, #00ff82 4%, #15c3e1 30%, #1d6596 62%, #31237c 85%, #1e1b34);
+    background: -moz-radial-gradient(circle at -30% -10%, #00ff82 4%, #15c3e1 30%, #1d6596 62%, #31237c 85%, #1e1b34);
+    background: -ms-radial-gradient(circle at -30% -10%, #00ff82 4%, #15c3e1 30%, #1d6596 62%, #31237c 85%, #1e1b34);
+    background: -o-radial-gradient(circle at -30% -10%, #00ff82 4%, #15c3e1 30%, #1d6596 62%, #31237c 85%, #1e1b34);
+    background: radial-gradient(circle at -30% -10%, #00ff82 4%, #15c3e1 30%, #1d6596 62%, #31237c 85%, #1e1b34);
 }
 
