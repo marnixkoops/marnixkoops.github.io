@@ -230,9 +230,9 @@ ul.icons li:last-child {
     background-size: cover;
     background: lightgray;
     background-repeat: no-repeat;
-    background: -webkit-radial-gradient(circle at -10% 10%, #25CCF7 4%, #7C00C8 50%, #EA4C89 75%, #F0047F);
-    background: -moz-radial-gradient(circle at -10% 10%, #25CCF7 4%, #7C00C8 50%, #EA4C89 75%, #F0047F);
-    background: -ms-radial-gradient(circle at -10% 10%, #25CCF7 4%, #7C00C8 50%, #EA4C89 75%, #F0047F);
-    background: -o-radial-gradient(circle at -10% 10%, #25CCF7 4%, #7C00C8 50%, #EA4C89 75%, #F0047F);
-    background: radial-gradient(circle at -10% 10%, #25CCF7 4%, #7C00C8 50%, #EA4C89 75%, #F0047F);
+    background: -webkit-radial-gradient(circle at -30% 10%, #25CCF7 4%, #7C00C8 50%, #EA4C89 75%, #623CEA);
+    background: -moz-radial-gradient(circle at -30% 10%, #25CCF7 4%, #7C00C8 50%, #EA4C89 75%, #623CEA);
+    background: -ms-radial-gradient(circle at -30% 10%, #25CCF7 4%, #7C00C8 50%, #EA4C89 75%, #623CEA);
+    background: -o-radial-gradient(circle at -30% 10%, #25CCF7 4%, #7C00C8 50%, #EA4C89 75%, #623CEA);
+    background: radial-gradient(circle at -30% 10%, #25CCF7 4%, #7C00C8 50%, #EA4C89 75%, #623CEA);
 }
