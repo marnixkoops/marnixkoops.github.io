@@ -178,8 +178,8 @@ ul.icons li:last-child {
 .contentPanel{
     padding-top: 25px;
     padding-left: 25px;
-    width: 700px;
-    height: 310px;
+    width: 720px;
+    height: 340px;
     position: absolute;
     top: 50px;
     left: 35%;
@@ -208,7 +208,7 @@ ul.icons li:last-child {
 .researchPanel{
     padding-top: 25px;
     padding-left: 25px;
-    width: 700px;
+    width: 720px;
     height: 600px;
     position: absolute;
     top: 420px;
